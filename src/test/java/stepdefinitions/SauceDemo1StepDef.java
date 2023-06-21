@@ -8,7 +8,7 @@ import org.testng.Assert;
 import pages.LoginPageObject;
 import pages.SauceDemo1Page;
 
-public class SouceDemo1StepDef extends PageTracker {
+public class SauceDemo1StepDef extends PageTracker {
 
     @Then("the {string} user is logged in")
     public void the_user_is_logged_in(String username) {

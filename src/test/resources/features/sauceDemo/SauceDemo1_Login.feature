@@ -8,8 +8,6 @@ Feature: Test to verify user can login successfully with a valid credential
     And I click the Login button
     Then the "Standard" user is logged in
     When the user selects the Highest price from the list of product and add to cart
-    #And the user selects the Lowest price from the list of product and add to cart
-    #And I click on the Sort dropdown and select "Price (low to high)"
     And I click on the logout button
 
 
